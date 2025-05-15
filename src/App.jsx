@@ -9,12 +9,13 @@ import CheckoutForm from './components/CheckoutForm.jsx';
 import { CartProvider } from './context/CartContext.jsx';
 import './styles/app.css';
 
+
 export default function App() {
   return (
     <CartProvider>
       <NavBar />
-      <CartWidget />
-      <Routes>
+   <Routes>  
+
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/category/:categoryId" element={<ItemListContainer />} />
         <Route path="/item/:itemId" element={<ItemDetailContainer />} />

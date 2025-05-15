@@ -6,7 +6,7 @@ export default function CartWidget() {
   const { getTotalQty } = useCart();
   return (
     <Link to="/cart">
-      � {getTotalQty()}
+      � Tus Productos  {getTotalQty()}
     </Link>
   );
 }
