@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
-  const categories = ['classic', 'sport', 'minimalist'];
+  const categories = ['Seiko', 'Tissot', 'Longines'];
   return (
     <nav>
       <NavLink to="/">Todos</NavLink>
